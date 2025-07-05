@@ -22,6 +22,10 @@ A unique relationship was created between the 2 tables by creating a Custom Colu
 - For each staff, Total Salary, including Bonus, CUSTOM COLUMN(TOTAL PAY)=[Salary]+[Annual Bonus]
 - The CONDITIONAL COLUMN was created to show the pay distribution of employees by a band of $10,000.
 
+## MEASURE CREATED
+- Gender Count = DISTINCTCOUNT('PB DATA'[Name])
+- Average Rating by Gender = (PB DATA'[Rating]
+
 
 
 
